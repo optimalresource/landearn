@@ -3,7 +3,7 @@
     <div class="section-map box-middle-container row-20">
       <div
         class="google-map"
-        data-coords="6.473408, 3.753981"
+        data-coords="6.4809, 3.7662"
         data-zoom="12"
         data-skin=" "
         data-marker-pos-top="30"

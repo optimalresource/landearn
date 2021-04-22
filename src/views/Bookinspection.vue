@@ -1,8 +1,8 @@
 <template>
   <div>
-    <UserHeader />
+    <UserHeader v-show="yes"  />
     <BookInspectionComponent />
-    <UserFooter />
+    <UserFooter v-show="yes" />
   </div>
 </template>
 
@@ -16,6 +16,11 @@ export default {
     UserFooter,
     UserHeader,
     BookInspectionComponent
+  },
+  data(){
+    return {
+      yes:false
+    }
   }
 };
 </script>
